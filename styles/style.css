@@ -66,16 +66,16 @@ img{
 
 .car1_image{
     animation-duration: 3s;
-    animation-name: driveCar1;
+    animation-name: driveCar1In;
     transform: scaleX(-1);
     
 }
 .car2_image{
     animation-duration: 3s;
-    animation-name: driveCar2;
+    animation-name: driveCar2In;
 }
 
-@keyframes driveCar1 {
+@keyframes driveCar1In {
     from {
       margin-right: 100%;
       opacity: 0;
@@ -91,7 +91,7 @@ img{
   }
 
   
-@keyframes driveCar2 {
+@keyframes driveCar2In {
     from {
       margin-left: 100%;
       opacity: 0;

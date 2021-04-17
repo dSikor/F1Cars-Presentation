@@ -40,7 +40,8 @@ button{
 
 img{
     height: auto; 
-    width: 440px; 
+    width: 100%;
+    max-width: 300px;
 }
 
 

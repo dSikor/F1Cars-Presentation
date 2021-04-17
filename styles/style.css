@@ -69,11 +69,13 @@ img{
     animation-duration: 3s;
     animation-name: driveCar1In;
     transform: scaleX(-1);
+    animation-fill-mode: forwards;
     
 }
 .car2_image{
     animation-duration: 3s;
     animation-name: driveCar2In;
+    animation-fill-mode: forwards;
 }
 
 @keyframes driveCar1In {

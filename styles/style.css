@@ -80,7 +80,7 @@ img{
 
 @keyframes driveCar1In {
     from {
-      margin-right: 100%;
+      margin-right: 10%;
       opacity: 0;
     }
   
@@ -89,20 +89,40 @@ img{
         opacity: 1;
        
     }
-
-    
   }
-
-  
 @keyframes driveCar2In {
     from {
-      margin-left: 100%;
+      margin-left: 10%;
       opacity: 0;
+
+    }
+    
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+  }
+@keyframes driveCar1Out {
+  from {
+    margin-right: 0;
+    opacity: 1;
+  }
+
+  to {
+    margin-right: 10%;
+    opacity: 0;
+  
+  }
+}
+@keyframes driveCar2Out {
+    from {
+    margin-left: 0;
+    opacity: 1;
      
     }
   
     to {
-        margin-left: 0;
-        opacity: 1;
+      margin-left: 10%;
+      opacity: 0;
     }
   }

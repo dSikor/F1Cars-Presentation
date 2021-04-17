@@ -117,14 +117,14 @@ img{
   }
 }
 @keyframes driveCar2Out {
-    from {
+  from {
     margin-left: 0;
     opacity: 1;
-     
-    }
-  
-    to {
+   
+  }
+
+  to {
       margin-left: 10%;
       opacity: 0;
-    }
   }
+}

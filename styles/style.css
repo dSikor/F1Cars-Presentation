@@ -21,6 +21,7 @@
     font-family: 'MODULAR 14';
     font-size: 3em;
     height: 100px;
+    text-align: center;
     /* margin: auto; */
    
 }
@@ -128,3 +129,37 @@ img{
       opacity: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+      color: blue;
+  }
+
+  img {
+    width: 100%;
+    max-width: 150px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 414px) {
+  
+  body {
+    color: rgb(187, 255, 0);
+  }
+
+  img {
+   display: none;
+  }
+
+  button{
+    width: 50%;
+    height: 50%;
+}
+  
+}
+
+
+

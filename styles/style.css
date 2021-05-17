@@ -20,7 +20,7 @@
     font-family: 'MODULAR 14';
     font-size: 3em;
     /* height: 100px; */
-    height: 10vh;
+    height: 2vh;
 
 
     text-align: center;
@@ -30,7 +30,7 @@
 .container__start{
     width: 100%;
     /* height: 100%; */
-    height: 50vh;
+    height: 30vh;
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -57,7 +57,7 @@ img {
 
   .chessboard {
      width: 100%;
-     height: 20vh 
+     height: 25vh 
    
     /* max-width: 300px; */
    
@@ -84,7 +84,7 @@ img {
 .car1_image{
   height: auto; 
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
 
     animation-duration: 3s;
     animation-name: driveCar1In;

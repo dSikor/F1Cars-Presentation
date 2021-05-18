@@ -45,13 +45,12 @@ button{
 .container__title {
     animation-duration: 3s;
     animation-name: slidein;
-  }
+}
 
-  .chessboard {
-     width: 100%;
-     height: 25vh 
-   
-  }
+.chessboard {
+    width: 100%;
+    height: 25vh;    
+}
 
   @keyframes slidein {
     from {
@@ -68,23 +67,20 @@ button{
     }
   }
 
-.car1_image{
+.car {
   height: auto; 
-  width: 100%;
   max-width: 300px;
-
-    animation-duration: 3s;
-    animation-name: driveCar1In;
-    transform: scaleX(-1);
-    animation-fill-mode: forwards;
-    
 }
-.car2_image{
 
-  height: auto; 
-  width: 100%;
-  max-width: 300px;
+.car1_animate{
 
+  animation-duration: 3s;
+  animation-name: driveCar1In;
+  transform: scaleX(-1);
+  animation-fill-mode: forwards;  
+}
+
+.car2_animate{
 
     animation-duration: 3s;
     animation-name: driveCar2In;
@@ -144,23 +140,11 @@ button{
   body {
       color: blue;
   }
-
-
-  .car1_image{
+  .car {
     height: auto; 
-    width: 100%;
-    max-width: 150px;    
+    width: 100vw;
+    max-width: 150px;
   }
-
-
-  .car2_image{
-    height: auto; 
-    width: 100%;
-    max-width: 200px;    
-  }
-
-
-
 
 }
 

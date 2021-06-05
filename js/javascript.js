@@ -36,7 +36,9 @@ let deleteElementCarsAndButton=()=>{
     Array.from(imageElements).forEach(element => {
         element.parentNode.removeChild(element);
     });
-    imageElements = document.getElementsByClassName("car");
+    Array.from(buttonElements).forEach(element => {
+        element.parentNode.removeChild(element);
+    });
 }
 
 let sequence=()=> {

@@ -2,6 +2,14 @@ let containerChange=()=>{
     sequence();
 }
 
+
+let sequence=()=> {
+    driveElementOut().then(() => {
+      return deleteElementCarsAndButton()
+    });
+  
+}
+
 let driveElementOut=()=>{
 
     return new Promise((resolve)=>{

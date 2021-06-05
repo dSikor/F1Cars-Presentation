@@ -54,6 +54,13 @@ button{
     object-position: bottom;
 }
 
+.container__results {
+  width: 100%;
+  border: 2px red solid;
+  display: none;
+}
+
+
   @keyframes slidein {
     from {
       /* margin-left: 100%;

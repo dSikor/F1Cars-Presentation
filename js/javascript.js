@@ -43,9 +43,7 @@ let deleteElementCarsAndButton=()=>{
     });
 }
 
-let sequence=()=> {
-    driveElementOut().then(() => {
-      return deleteElementCarsAndButton()
-    });
-  
-}
+
+
+
+

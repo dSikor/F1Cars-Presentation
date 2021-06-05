@@ -33,6 +33,8 @@ let driveElementOut=()=>{
 let deleteElementCarsAndButton=()=>{
 
      let imageElements = document.getElementsByClassName("car");
+     let buttonElements = document.getElementsByTagName("button");
+
     Array.from(imageElements).forEach(element => {
         element.parentNode.removeChild(element);
     });

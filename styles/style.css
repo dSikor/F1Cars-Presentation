@@ -145,9 +145,7 @@ button{
 }
 
 @media screen and (max-width: 768px) {
-  body {
-      color: blue;
-  }
+ 
   .car {
     height: auto; 
     width: 100vw;

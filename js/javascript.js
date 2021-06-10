@@ -6,7 +6,9 @@ let containerChange=()=>{
 let sequence=()=> {
     driveElementOut().then(() => {
       return deleteElementCarsAndButton()
-    });
+    }).then(() => {
+        return showLastResults()
+    })
   
 }
 
@@ -32,16 +34,26 @@ let driveElementOut=()=>{
 
 let deleteElementCarsAndButton=()=>{
 
-     let imageElements = document.getElementsByClassName("car");
-     let buttonElements = document.getElementsByTagName("button");
+    return new Promise((resolve)=>{
 
-    Array.from(imageElements).forEach(element => {
-        element.parentNode.removeChild(element);
-    });
-    Array.from(buttonElements).forEach(element => {
-        element.parentNode.removeChild(element);
-    });
-}
+        let imageElements = document.getElementsByClassName("car");
+        let buttonElements = document.getElementsByTagName("button");
+
+        this.setTimeout(()=> {
+
+            Array.from(imageElements).forEach(element => {
+                element.parentNode.removeChild(element);
+            });
+            Array.from(buttonElements).forEach(element => {
+                element.parentNode.removeChild(element);
+            });
+        
+
+          resolve()
+        }, 2000)
+      })
+
+
 
 
 

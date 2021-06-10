@@ -55,7 +55,7 @@ button{
 }
 
 .container__results {
-  width: 100%;
+  width: 80%;
   border: 2px red solid;
   display: none;
 }

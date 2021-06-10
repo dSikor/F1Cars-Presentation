@@ -1,3 +1,22 @@
+var tabledata = [
+    {id:1, name:"Oli Bob", team:"Red Bull Racing", dob:""},
+    {id:2, name:"Mary May", team:"Mercedes-AMG Petronas Formula One Team", dob:"14/05/1982"},
+    {id:3, name:"Christine Lobowski", team:"Scuderia Ferrari Mission Winnow", col:"green", dob:"22/05/1982"},
+    {id:4, name:"Brendon Philips", team:"McLaren F1 Team", col:"orange", dob:"01/08/1980"},
+    {id:5, name:"Margret Marmajuke", team:"Williams Racing", col:"yellow", dob:"31/01/1999"},
+];
+
+var table = new Tabulator("#result", {
+    height:"150px",
+    data:tabledata,
+    layout:"fitColumns",
+    columns:[
+    {title:"Miejsce", field:"id",hozAlign:"center"},
+    {title:"Kierowca", field:"name", hozAlign:"center", sorter:"number"},
+    {title:"Zespół", field:"team", hozAlign:"center", sorter:"number"},
+    ],
+});
+
 let containerChange=()=>{
     sequence();
 }

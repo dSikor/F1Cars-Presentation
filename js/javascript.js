@@ -46,4 +46,11 @@ let deleteElementCarsAndButton=()=>{
 
 
 
+}
+let showLastResults=()=>{
+    let results = document.getElementsByClassName('container__results');
+    for(i = 0; i < results.length; i++) {
+        results[i].style.display="block";
+    }
 
+}

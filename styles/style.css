@@ -19,17 +19,14 @@
 .container__title{
     font-family: 'MODULAR 14';
     font-size: 3em;
-    /* height: 100px; */
     height: 2vh;
 
 
     text-align: center;
-    /* margin: auto; */
    
 }
 .container__start{
     width: 100%;
-    /* height: 100%; */
     height: 30vh;
     display: flex;
     box-sizing: border-box;
@@ -56,23 +53,17 @@ button{
 
 .container__results {
   width: 80%;
-  border: 2px red solid;
   display: none;
 }
 
 
   @keyframes slidein {
     from {
-      /* margin-left: 100%;
-      width: 300%; */
       opacity: 0;
     }
   
     to {
         opacity: 1;
-        
-      /* margin-left: 0%;
-      width: 100%; */
     }
   }
 
@@ -81,7 +72,6 @@ button{
 }
 
 .car1_animate{
-
   animation-duration: 3s;
   animation-name: driveCar1In;
   transform: scaleX(-1);
@@ -94,6 +84,35 @@ button{
     animation-name: driveCar2In;
     animation-fill-mode: forwards;
 }
+
+/* 
+         Class and style definitions for cleaning the results table
+*/
+
+
+
+
+#result {
+
+  background-color:rgb(238, 23, 23);
+  border: 1px solid rgb(161, 148, 26);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+        saas
+#result .tabulator-header {
+  background-color:rgb(21, 224, 82);
+  color:rgb(233, 23, 23);
+}
+
+#result .tabulator-header .tabulator-col,
+            #result .tabulator-header .tabulator-col-row-handle {
+                white-space: normal;
+                background-color: #333;
+            }
+
+
 
 @keyframes driveCar1In {
     from {

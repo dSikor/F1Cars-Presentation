@@ -111,7 +111,7 @@ button{
 #result .tabulator-header .tabulator-col,
             #result .tabulator-header .tabulator-col-row-handle {
                 white-space: normal;
-                background-color: #333;
+                background-color: rgb(235, 37, 37);
             }
 
 
@@ -187,7 +187,7 @@ button{
   }
 
   button{
-   
+    font-size: 50%;
 }
   
 }
